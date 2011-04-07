@@ -1,0 +1,19 @@
+//
+// Contents
+//
+
+The HelloSpiffyREST application is a simple example of using the Spiffy UI framework.
+
+
+//
+// Building and Running HelloSpiffyREST
+//
+
+HelloSpiffyREST is built with Apache Ant using Apache Ivy.  Once you've installed Ant
+with Ivy go to your HelloSpiffyREST working copy and run this command:
+
+        <ANT HOME>/ant run
+        
+This will download the required libraries, build the SPSample project, and run
+it with an embedded web server.  It will then provide intructions for accessing
+the running application.  

@@ -21,7 +21,7 @@
         <ivy:retrieve />
     </target>
     
-    <target name="setup" description="Setup build dependencies and properties and get Subversion information">
+    <target name="setup" description="Setup build dependencies and properties">
         <property environment="env"/>
 
         <!-- These are all the project relative paths.  Please add new paths
@@ -105,7 +105,7 @@
     </target>
     
     <target name="run" depends="setup,resolve,all,jetty.setup" 
-            description="Run the Spiffy sample project with an embedded Jetty server.">
+            description="Run the Spiffy sample project with an embedded Jetty server">
         <!--
         Setup for Jetty
         -->

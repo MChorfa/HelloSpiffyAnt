@@ -129,7 +129,7 @@
             <!-- We need to add the JARs to support the spiffy framework to
                  our WAR file -->
             <zipfileset dir="${build}/lib" prefix="WEB-INF/lib" >
-                <include name="**/*.jar"/>
+                <include name="spiffyui*.jar"/>
             </zipfileset>
         </war>
     </target>

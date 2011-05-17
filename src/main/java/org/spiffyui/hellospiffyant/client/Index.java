@@ -66,7 +66,7 @@ public class Index implements EntryPoint, ClickHandler, KeyPressHandler
         header.setHeaderTitle("Hello Spiffy Ant!");
         
         MainFooter footer = new MainFooter();
-        footer.setFooterString("This application is a <a href=\"http://garcia.qalab.cam.novell.com:8180/spsample/\">Spiffy UI Framework</a> application");
+        footer.setFooterString("This application is a <a href=\"http://www.spiffyui.org\">Spiffy UI Framework</a> application");
         
         FlowPanel panel = new FlowPanel()
         {

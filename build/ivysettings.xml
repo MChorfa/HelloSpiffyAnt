@@ -16,11 +16,11 @@
         <artifact pattern="http://oss.sonatype.org/service/local/repositories/central/content/[organisation]/[module]/[revision]/[artifact].[ext]" />
       </url>
       
-      <ibiblio name="novell-snapshots"
+      <ibiblio name="spiffyui-snapshots"
                  m2compatible="true"
                  usepoms="true"
                  pattern="[organisation]/[module]/[revision]/[artifact]-[revision](-[classifier]).[ext]"
-                 root="http://151.155.230.64:8081/nexus/service/local/repositories/releases/content"/>
+                 root="http://spiffyui.googlecode.com/svn/mvn-repo/snapshots/"/>
     </chain>
   </resolvers>
 </ivysettings>

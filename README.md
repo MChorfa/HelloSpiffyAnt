@@ -7,18 +7,15 @@ Hello Spiffy Ant is a sample application using the [Spiffy UI Framework](http://
 Building and Running Spiffy UI
 --------------------------------------
 
-HelloSpiffyAnt is built with Apache Ant using Apache Ivy.  Once you've installed Ant with Ivy go to your HelloSpiffyAnt working copy and run this command:
+Hello Spiffy Ant is built with [Apache Ant](http://ant.apache.org/) using [Apache Ivy](http://ant.apache.org/ivy/).  Once you've installed Ant go to your HelloSpiffyAnt working copy and run this command:
 
         <ANT HOME>/ant run
         
-This will download the required libraries, build the Hello Spiffy Ant project, and run it with an embedded Jetty web server.  It will then provide instructions for accessing the running application once the build is completed.  
+This will download Apache Ivy and the other the required libraries, build the Hello Spiffy Ant project, and run it with an embedded Jetty web server.  It will then provide instructions for accessing the running application once the build is completed.  
 
 License
 --------------------------------------
 
 Hello Spiffy Ant is available under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
-Spiffy UI on Google Code
---------------------------------------
 
-The source for Hello Spiffy Ant can be found at [Hello Spiffy Ant Framework at Google Code](http://spiffyui.googlecode.com/svn/samples/HelloSpiffyAnt)
